@@ -1,0 +1,263 @@
+.header {
+    width: 100%;
+    box-shadow: 0px 1px 9px 1px #cfcfcf;
+    border-top: 2px solid #fa4b2a;
+}
+
+.header-main ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 50px;
+    text-align: center;
+    padding: 1.2em 0;
+}
+
+.header-main ul li {
+    display: inline-block;
+    margin: 10px 10px;
+}
+.header-main ul li a{
+	font-weight: 600;
+}
+.header-search {
+    height: 100%;
+    width: 15%;
+    padding: 1.2em 0;
+    margin: 10px 10px;
+}
+
+.header-search span {
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/搜索.png');
+    background-size: cover;
+    margin-right: 66px;
+}
+
+.slogan {
+    width: 100%;
+    text-align: center;
+    padding: 1.2em 0;
+}
+
+.slogan h1 {}
+
+.slogan p {
+    margin-top: 10px;
+    color: #fa4b2a;
+}
+
+.slogan .of {
+    width: 86px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 37px;
+}
+
+.banner {
+    padding: 10em 0 0;
+    background: url(../images/banner-1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 600px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.banner p {
+    width: 70%;
+    margin: 1em auto 2em;
+    color: rgba(255, 255, 255, 0.46);
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+.banner a {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.8em 2em;
+    background: #fa4b2a;
+}
+
+.banner a:hover {
+    background: black;
+}
+
+.example-tabs {
+    text-align: center;
+    width: 1170px;
+    margin: auto;
+}
+
+
+/* .example-tabs ul {
+   
+    padding-left: 0;
+margin-bottom: 0;
+list-style: none;
+} */
+
+.example-tabs ul li {
+    float: left;
+    position: relative;
+    display: block;
+    width: 33.33%;
+    box-sizing: border-box;
+    line-height: 1.42857143;
+    border-bottom: 1px solid #ddd;
+}
+
+.example-tabs li a {
+    padding: 10px 53px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #016773;
+    position: relative;
+    display: block;
+}
+
+.example-tabs li a:hover,
+a:active,
+a:focus {
+    border-bottom: 3px solid #fa4b2a;
+    /* text-decoration: none; */
+}
+
+.example-tabs li .aline {
+    border-bottom: 3px solid #fa4b2a;
+}
+
+.example-tabs .tabs-images {
+    padding: 50px 0;
+    display: block;
+}
+
+.example-tabs .iamgetab {
+    padding: 0 15px;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+.example-tabs .image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.example-tabs .tab-active {
+    display: block;
+}
+
+.example-tabs .tab-dis-active {
+    display: none;
+}
+
+.footer {
+    background: #303030;
+    padding: 3em 0;
+}
+
+.footer .content {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.foot-div {
+    width: 33.33%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.footer .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.footer .content h4 {
+    font-size: 1.7em;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+.footer p {
+    font-size: 0.875em;
+    color: #fff;
+    margin: 1em 0;
+    line-height: 1.8em;
+}
+
+.footer .footer-left a {
+    background: #fa4b2a;
+    padding: 0.3em 1.8em;
+    display: inline-block;
+    color: #fff;
+    margin-top: 1em;
+}
+
+.footer .footer-left a:hover {
+    background: #0A0A0A;
+}
+
+.footer .footer-min a {
+    color: #fa4b2a;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer .name input {
+    width: 100%;
+    padding: .5em;
+    font-size: 16px;
+    margin-bottom: 0.5em;
+    border: none;
+    box-sizing: border-box;
+}
+
+.footer .name input[type="submit"] {
+    background: #fa4b2a;
+    padding: 10px 0;
+    display: block;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: inherit;
+    box-sizing: border-box;
+    margin: 0;
+    cursor: pointer;
+}
+
+.lastsee {
+    background: #0A0A0A;
+    text-align: center;
+}
+
+.lastsee p {
+    font-size: 0.875em;
+    color: #ffffff;
+    line-height: 1.8em;
+}
+.lastsee a{
+	 font-size: 0.875em;
+    color: #ffffff;
+    line-height: 1.8em;
+}

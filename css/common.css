@@ -1,0 +1,39 @@
+html, body{
+ 	font-family: "微软雅黑", sans-serif;
+	font-size: 100%;
+	background: #f7f7f7;
+	margin: 0px;
+	padding: 0px;
+	color: black;
+}
+h1,h2,h3,h4,h5,h6 ,span{
+	margin:0;
+	padding: 0;
+}	
+p{
+	margin:0;
+	padding: 0;
+}
+ul,li{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+label,img{
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1} 
+.clear{
+	clear: both;
+}
