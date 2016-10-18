@@ -1,0 +1,98 @@
+.header {
+    width: 100%;
+    box-shadow: 0px 1px 9px 1px #cfcfcf;
+    border-top: 2px solid #fa4b2a;
+}
+
+.header-main ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 50px;
+    text-align: center;
+    padding: 1.2em 0;
+}
+
+.header-main ul li {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.header-main ul li a {
+    font-weight: 600;
+     color: #303030;
+}
+
+.header-search {
+    height: 100%;
+    width: 15%;
+    padding: 1.2em 0;
+    margin: 10px 10px;
+}
+
+.header-search span {
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/搜索.png');
+    background-size: cover;
+    margin-right: 66px;
+}
+
+.slogan {
+    width: 100%;
+    text-align: center;
+    padding: 1.2em 0;
+}
+.slogan a{
+    font-size: 1.4em;
+    color: #303030;
+}
+.slogan h1 {}
+
+.slogan p {
+    margin-top: 10px;
+    color: #fa4b2a;
+}
+
+.slogan .of {
+    width: 86px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 37px;
+}
+
+.banner {
+    padding: 10em 0 0;
+    background: url(../images/banner-1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    text-align: center;
+    box-sizing: border-box;
+    min-height: 250px;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.banner p {
+    width: 70%;
+    margin: 1em auto 2em;
+    color: rgba(255, 255, 255, 0.46);
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+.banner a {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.8em 2em;
+    background: #fa4b2a;
+}
+
+.banner a:hover {
+    background: black;
+}

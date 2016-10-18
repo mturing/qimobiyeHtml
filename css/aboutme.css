@@ -1,0 +1,32 @@
+.technology {
+    margin-top: 3em;
+}
+
+.technology .container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.technology .technology-left {
+    width: 70%;
+}
+
+.technology h2 {
+    font-size: 2em;
+    color: #fa4b2a;
+    font-weight: 600;
+}
+
+.technology .welcome-main {
+    margin-top: 4%;
+}
+
+.technology .welcome-main p {
+    color: #777;
+    font-size: 0.875em;
+    line-height: 1.8em;
+    margin: 1em 0;
+}
