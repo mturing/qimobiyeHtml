@@ -1,0 +1,16 @@
+.most-music{
+	margin: 3em 0;
+}
+.most-music .most-left{
+	width: 50%;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.most-music .most-right{
+	width: 50%;
+	padding-right: 15px;
+	padding-left: 15px;
+	box-sizing: border-box;
+}

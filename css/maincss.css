@@ -1,0 +1,50 @@
+.technology {
+    margin-top: 3em;
+}
+
+.technology .container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.technology .technology-left {
+    width: 70%;
+    padding: 2em;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.technology h2 {
+    font-size: 2em;
+    color: #fa4b2a;
+    font-weight: 600;
+    text-transform:capitalize
+}
+
+.technology-right{
+    float: right;
+    width: 30%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.technology-right .content{
+    padding: 2em 1em 2em 1em;
+    background: #fff;
+    box-sizing: border-box;
+}
+.technology-right .content span{
+    line-height: 1.8em;
+    display: block;
+    margin-top: 1em;
+    font-weight: 500;
+}
+.technology-right .content .weather{
+    background: url(../images/weather.jpg) no-repeat;
+    height: 88px;
+    margin-bottom: 0.8em;
+}

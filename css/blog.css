@@ -1,0 +1,57 @@
+.technology .bolg-line{
+	margin-top: 3em;
+}
+.technology .bolg-line .bolg-singal{
+	width: 50%;
+	box-sizing: border-box;
+	padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+.bolg-singal img{
+	width: 100%;
+	height: 211.8px;
+}
+.bolg-singal .bolg-detil a{
+	font-size: 1.3em;
+    padding: 0.5em 0;
+    color: #303030;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.bolg-singal .bolg-detil a:hover{
+	color: #fa4b2a;
+}
+.bolg-singal .bolg-detil h4{
+	text-transform: capitalize;
+    font-size: 1em;
+    color: #fa4b2a;
+    margin: 0.5em 0;
+    line-height: 1.8em;
+}
+.bolg-singal .bolg-detil span{
+	font-size: 14px;
+    color: #999;
+    margin: 0;
+    line-height: 1.8em;
+}
+.bolg-spec-list .bolg-spec {
+	border-bottom: 1px dotted #aeaeae;
+    padding: 1.3em 0;
+}
+.bolg-spec-list .bolg-spec img{
+	width: 36%;
+	height: auto;
+	display: block;
+}
+.bolg-spec-list .bolg-spec p{
+    float: right;
+    width: 60%;
+    margin-left: 0.5em;
+
+    font-size: 1em;
+    line-height: 1.6em;
+    font-weight: 600;
+  }
